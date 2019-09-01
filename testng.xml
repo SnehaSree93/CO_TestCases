@@ -10,7 +10,7 @@
     <!--</test>-->
     <test name="Co_FileUpload_TC">
         <classes>
-            <class name="test.java.ReportingPageTest"/>
+            <class name="test.java.FileUploadTest"/>
         </classes>
     </test>
    <!-- <test name="CO_Reporting_TC">
