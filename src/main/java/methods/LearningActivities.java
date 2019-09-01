@@ -191,6 +191,7 @@ private static      Logger logger =  Logger.getLogger(LearningActivities.class);
        }
 
        public static void close(){
+        driver.switchTo().parentFrame();
         driver.findElement(By.xpath("//button[@aria-label='Close']")).click();
        }
 
